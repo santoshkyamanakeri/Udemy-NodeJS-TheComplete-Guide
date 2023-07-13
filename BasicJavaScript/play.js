@@ -1,6 +1,6 @@
-var name = "Santosh";
-var age = 26;
-var hobbies = true;
+const name = "Santosh";
+let age = 26;
+const hobbies = true;
 
 function summarizeUser(userName, userAge, userHobbies) {
   return userName + " " + userAge + " " + userHobbies;
