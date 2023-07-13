@@ -11,3 +11,6 @@ const add = (a, b) => {
 };
 console.log(add(1, 2));
 console.log(summarizeUser(name, age, hobbies))
+
+// let myVariable ="santosh";
+// myVariable = "santu";
