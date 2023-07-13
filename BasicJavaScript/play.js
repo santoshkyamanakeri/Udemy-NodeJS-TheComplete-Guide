@@ -1,8 +1,9 @@
-var name = "Santosh";
-var age = 26;
-var hobbies = true;
-
-function summarizeUser(userName, userAge, userHobbies) {
-  return userName + " " + userAge + " " + userHobbies;
+const person = {
+  name: 'santosh',
+  Age: 26,
+  greet() {
+    console.log('Hi, I am ' + this.name);
+  }
 }
-console.log(summarizeUser(name, age, hobbies));
+
+person.greet();
